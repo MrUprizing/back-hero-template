@@ -1,25 +1,25 @@
 # API Template
 
-## Estructura del Proyecto
+## Project Structure
 
 ```
 TEMPLATE/
 ├── src/
-│   ├── index.ts          # Punto de entrada de la aplicación
-│   ├── routes.ts         # Definición de rutas y handlers
-│   └── schemas.ts        # Esquemas de validación (Zod)
-├── dist/                 # Archivos compilados (generados)
-├── package.json          # Dependencias y scripts
-├── tsconfig.json         # Configuración de TypeScript
-├── bun.lock              # Lock file de dependencias
-└── README.md             # Este archivo
+│   ├── index.ts          # Application entry point
+│   ├── routes.ts         # Route definitions and handlers
+│   └── schemas.ts        # Validation schemas (Zod)
+├── dist/                 # Compiled files (generated)
+├── package.json          # Dependencies and scripts
+├── tsconfig.json         # TypeScript configuration
+├── bun.lock              # Dependency lock file
+└── README.md             # This file
 ```
 
-### Descripción de Archivos
+### File Descriptions
 
-- **index.ts**: Inicia el servidor Hono y registra las rutas
-- **routes.ts**: Contiene la definición de endpoints con OpenAPI
-- **schemas.ts**: Define los esquemas Zod para validación de requests/responses
+- **index.ts**: Starts the Hono server and registers routes
+- **routes.ts**: Contains endpoint definitions with OpenAPI
+- **schemas.ts**: Defines Zod schemas for request/response validation
 
 ## Add Endpoint
 

@@ -1,9 +1,9 @@
+import { serve } from "@hono/node-server";
 import { OpenAPIHono } from "@hono/zod-openapi";
 import { Scalar } from "@scalar/hono-api-reference";
 import { handle } from "hono/aws-lambda";
 import { logger } from "hono/logger";
 import { routes } from "./routes";
-import { serve } from "@hono/node-server";
 
 const app = new OpenAPIHono();
 
